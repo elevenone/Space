@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b3c836d662ee81b424503a9a88044baf",
+    "packages": [
+        {
+            "name": "elevenone/blackhole",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elevenone/BlackHole.git",
+                "reference": "5025cceda07affccc77866919e90434d69418dcd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elevenone/BlackHole/zipball/5025cceda07affccc77866919e90434d69418dcd",
+                "reference": "5025cceda07affccc77866919e90434d69418dcd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BlackHole\\": "src/BlackHole/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "elevenone"
+                }
+            ],
+            "description": "Schemaless database on top of SqLite",
+            "homepage": "https://github.com/elevenone/BlackHole",
+            "keywords": [
+                "database",
+                "json",
+                "no-sql",
+                "pdo",
+                "schemaless",
+                "sqlite"
+            ],
+            "time": "2020-07-19T10:56:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

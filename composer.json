@@ -1,0 +1,14 @@
+{
+    "name": "elevenone/space",
+    "type": "project",
+    "description": "A project skeleton.",
+    "license": "MIT",
+    "require": {
+        "elevenone/blackhole": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "app/"
+        }
+    }
+}
