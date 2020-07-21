@@ -1,10 +1,5 @@
 <?php
 
-
-
-// date_default_timezone_set('America/Los_Angeles'); // Europe/Budapest
-
-// fix php builtin server
 // running under built-in server route static assets and return false
 if (php_sapi_name() == "cli-server") {
     $extensions = array("php", "jpg", "gif", "css", "png", "js", "ico", "svg");
@@ -15,14 +10,8 @@ if (php_sapi_name() == "cli-server") {
     }
 }
 
-
-
 // vendor
 require dirname(__DIR__) . '/vendor/autoload.php';
 
 // commencing countdown
 require dirname(__DIR__) . '/app/countdown.php';
-
-
-
-// eof
